@@ -2,7 +2,7 @@
 
 ![Healthcare Analytics Dashboard](dashboard/dashboard.png)
 
-Built in Power BI on the gold semantic model — KPI cards, a ranked
+Built in Power BI on the gold semantic model KPI cards, a ranked
 abnormal-rate bar chart, an admission-type donut, and a monthly billing trend.
 
 Final Power BI dashboard screenshot is here as dashboard.png it is referenced as your hero image.
