@@ -8,7 +8,7 @@ An end-to-end, **serverless** data engineering project on Microsoft Azure that i
 
 ## Overview
 
-This project takes ~55,500 synthetic patient admission records from a flat CSV and turns them into curated, analytics-ready KPIs all using managed Azure services with **no clusters and near-zero idle cost**. It demonstrates the core skills of a data engineer: cloud storage design, orchestrated ingestion, SQL-based transformation, the Medallion pattern, and BI delivery.
+This project takes ~55,500 synthetic patient admission records from a flat CSV and turns them into curated, analytics ready KPIs all using managed Azure services with **no clusters and near-zero idle cost**. It demonstrates the core skills of a data engineer: cloud storage design, orchestrated ingestion, SQL based transformation, the Medallion pattern, and BI delivery.
 
 > **Dataset:** Synthetic healthcare dataset (Kaggle, *Prasad22*). Fully synthetic — safe to publish. Use case: claims-cost and patient-outcome analytics.
 
@@ -31,7 +31,7 @@ This project takes ~55,500 synthetic patient admission records from a flat CSV a
 
 **1. Landing / Bronze** — The raw CSV lands in ADLS Gen2. Azure Data Factory copies it into the `bronze` zone as **Parquet** (~50% smaller, columnar). Column headers are mapped to `snake_case` to satisfy Parquet naming rules.
 
-**2. Silver** — Synapse serverless SQL reads the bronze Parquet in place (`OPENROWSET`), then **cleans and enriches**: standardises scrambled patient names, casts dates and billing to proper types, and engineers two new columns — `length_of_stay` and `age_group`. The result is written back to the `silver` zone as Parquet via **CETAS**.
+**2. Silver** — Synapse serverless SQL reads the bronze Parquet in place (`OPENROWSET`), then **cleans and enriches**: standardises scrambled patient names, casts dates and billing to proper types, and engineers two new columns  `length_of_stay` and `age_group`. The result is written back to the `silver` zone as Parquet via **CETAS**.
 
 **3. Gold** — Three curated KPI tables are aggregated from silver and written to the `gold` zone:
 
@@ -41,7 +41,7 @@ This project takes ~55,500 synthetic patient admission records from a flat CSV a
 | `gold_admission_type_kpis` | admission type | admissions, avg billing, avg stay |
 | `gold_monthly_trend` | year + month | admissions, total billing |
 
-**4. Reporting** — The gold tables feed a Power BI semantic model (`healthcare_gold`) powering KPI cards, a ranked bar chart, a donut, and a monthly trend chart.
+**4. Reporting**  The gold tables feed a Power BI semantic model (`healthcare_gold`) powering KPI cards, a ranked bar chart, a donut, and a monthly trend chart.
 
 ---
 
@@ -93,5 +93,5 @@ This project takes ~55,500 synthetic patient admission records from a flat CSV a
 
 ## Notes
 
-- All infrastructure is **serverless** — Synapse serverless SQL and ADLS Gen2 incur no idle cost; storage holds well under 1 GB.
+- All infrastructure is **serverless**  Synapse serverless SQL and ADLS Gen2 incur no idle cost; storage holds well under 1 GB.
 - The dataset is **synthetic**; no real patient data is present.
