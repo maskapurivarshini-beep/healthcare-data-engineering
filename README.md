@@ -10,7 +10,7 @@ An end-to-end, **serverless** data engineering project on Microsoft Azure that i
 
 This project takes ~55,500 synthetic patient admission records from a flat CSV and turns them into curated, analytics ready KPIs all using managed Azure services with **no clusters and near-zero idle cost**. It demonstrates the core skills of a data engineer: cloud storage design, orchestrated ingestion, SQL based transformation, the Medallion pattern, and BI delivery.
 
-> **Dataset:** Synthetic healthcare dataset (Kaggle, *Prasad22*). Fully synthetic - safe to publish. Use case: claims-cost and patient-outcome analytics.
+> **Dataset:** Synthetic healthcare dataset (Kaggle, *Prasad22*). Fully synthetic safe to publish. Use case: claims-cost and patient-outcome analytics.
 
 ---
 
