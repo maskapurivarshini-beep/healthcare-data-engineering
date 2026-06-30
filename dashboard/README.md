@@ -12,3 +12,6 @@ Final Power BI dashboard screenshot is here as dashboard.png it is referenced as
 <img width="1470" height="956" alt="Screenshot 2026-06-24 at 10 54 35 AM" src="https://github.com/user-attachments/assets/0cc92593-1e20-4809-ad15-f9905f6cd5cf" />
 <img width="2560" height="1440" alt="Screenshot 2026-06-24 at 3 47 00 PM" src="https://github.com/user-attachments/assets/b6dc0e78-d503-4cb5-a8b3-82724503e0f7" />
 <img width="2940" height="1912" alt="Screenshot 2026-06-30 at 4 32 32 PM" src="https://github.com/user-attachments/assets/65cae755-280d-444b-be80-e062c9bbbb8c" />
+<img width="1470" height="956" alt="Screenshot 2026-06-26 at 12 14 42 PM" src="https://github.com/user-attachments/assets/a0a4d26f-d537-4059-bc74-e682f42d9fc1" />
+<img width="1470" height="956" alt="Screenshot 2026-06-26 at 12 14 28 PM" src="https://github.com/user-attachments/assets/c7b906b1-2b32-4021-9da8-4c8b05800980" />
+
